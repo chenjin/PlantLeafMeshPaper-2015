@@ -15,7 +15,7 @@
 \usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
 
 
-\threedvfinalcopy % *** Uncomment this line for the final submission
+%\threedvfinalcopy % *** Uncomment this line for the final submission
 
 \def\threedvPaperID{****} % *** Enter the 3DV Paper ID here
 \def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
@@ -24,34 +24,25 @@
 \ifthreedvfinal\pagestyle{empty}\fi
 \begin{document}
 
+%-------------------------------------------------------------------------
 %%%%%%%%% TITLE
 \title{Plant Leaf Meshes from RGB-D Sensors}
 
 \author{ 
 Daniel Morris \and Saif Imran \and Vincent Zickefoose \and Jin Chen \and David Kramer\\
+%Need to fix the following:
 Department of Electrical and Computer Engineering\\
 Department of Energy Plant Research Laboratory\\
 Michigan State University, East Lansing, MI 48824, USA
 }
-% For a paper whose authors are all at the same institution,
-% omit the following lines up until the closing ``}''.
-% Additional authors and addresses can be added with ``\and'',
-% just like the second author.
-% To save space, use either the email address or home page, not both
-%\and
-%Second Author\\
-%Institution2\\
-%First line of institution2 address\\
-%{\tt\small secondauthor@i2.org}
-%}
 
 \maketitle
-% \thispagestyle{empty}
 
 %-------------------------------------------------------------------------
 \begin{abstract}
 
 \end{abstract}
+%-------------------------------------------------------------------------
 
 \input{PlantMesh-intro.tex}
 
@@ -65,11 +56,12 @@ Michigan State University, East Lansing, MI 48824, USA
 
 \input{PlantMesh-conclusion.tex}
 
+%-------------------------------------------------------------------------
 
 {\small
 \bibliographystyle{ieee}
 \bibliography{sense3d}
 }
-
+%-------------------------------------------------------------------------
 
 \end{document}
